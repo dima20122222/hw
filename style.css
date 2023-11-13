@@ -1,0 +1,43 @@
+
+
+#greycol {
+    color: grey;
+}
+
+.yellow {
+    color: yellow;
+}
+
+div~p {
+    color: red;
+}
+
+.h2 {
+    display: flex;
+}
+
+
+.list:hover {
+    outline: dotted red;
+    margin-right: 500px;
+    background: gold;
+}
+
+
+
+.list {
+    list-style:lower-greek;
+}
+
+.text-box > h3:nth-child(1) {
+    color: pink;
+}
+
+
+.text-box > div > p{
+    color: red;
+}
+
+.text-box > div + h3 + p{
+    color: green;
+}
